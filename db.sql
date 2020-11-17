@@ -61,9 +61,9 @@ INSERT INTO `menu` VALUES ('19', 'Charts', 'x-fa fa-pie-chart', null, null, null
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
   `id` varchar(60) NOT NULL,
-  `usercode` varchar(60) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '编号',
-  `username` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '用户名',
-  `password` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL COMMENT '密码',
+  `usercode` varchar(60) CHARACTER NOT NULL COMMENT '编号',
+  `username` varchar(100) CHARACTER NOT NULL COMMENT '用户名',
+  `password` varchar(200) CHARACTER NOT NULL COMMENT '密码',
   `alias` varchar(20) NOT NULL COMMENT '姓名',
   `header` varchar(100) DEFAULT NULL COMMENT '用户头像',
   `sex` varchar(1) DEFAULT NULL COMMENT '性别 M:男 F:女',
