@@ -67,4 +67,4 @@ gunicorn -w n(n指定工作进程的数量) -b 127.0.0.1:5000 app:backend
 
 
 ## 3.demo
-[Demo应用地址](http://demo.hotairballoon.fun/app/index.html#dashboard)
+[Demo应用地址](http://47.99.202.246/app/index.html#dashboard)
